@@ -1,0 +1,12 @@
+print("enter the height of tree")
+a=int(input())
+b=1
+c=a
+for i in range(0,a):
+	for k in range(0,c-1):
+		print(end=" ")
+	for j in range(0,b):
+		print(end="a")
+	print("")
+	c=c-1
+	b=b+2
